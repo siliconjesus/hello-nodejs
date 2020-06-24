@@ -1,7 +1,12 @@
-"scripts": {
-
-    "start": "node app.js"
-
-},
-
-"main": "app.js"
+{
+    "name": "Helloworld",
+    "version": "1.0.0",
+    "description": "Hello World",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
